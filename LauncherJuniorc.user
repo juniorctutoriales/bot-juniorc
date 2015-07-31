@@ -4,7 +4,7 @@
 // @include     http://agar.io/*
 // @version     3.063
 // @grant       none
-// @author      http://www.twitch.tv/apostolique
+// @author      https://fb.com/christian.ponce.7146
 // ==/UserScript==
 
 var LauncherJuniorcVersion = 3.063;
