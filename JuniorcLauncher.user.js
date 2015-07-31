@@ -4,9 +4,7 @@
 // @include     http://agar.io/*
 // @version     3.063
 // @grant       none
-// @author      
-
-https://www.fb.com/christian.ponce.7146// ==/UserScript==
+// @author      https://www.fb.com/christian.ponce.7146// ==/UserScript==
 
 var 
 
