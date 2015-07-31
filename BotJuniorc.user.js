@@ -3,7 +3,7 @@
 // @namespace   BotJuniorc.user// @include     http://agar.io/*
 // @version     3.551
 // @grant       none
-// @author      https://www.fb.com/christian.ponce.7146
+// @author      Juniorc
 // ==/UserScript==
 
 var BotJuniorc.userVersion = 3.551;
