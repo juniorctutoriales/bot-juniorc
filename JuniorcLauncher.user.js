@@ -2,15 +2,15 @@
 // @name        JuniorcLauncher
 // @namespace  
 
- JuniorcLauncher// @include     http://agar.io/*
+ JuniorcLauncher
+// @include     http://agar.io/*
 // @version    
 
  3.063
 // @grant       none
 // @author      
 
-https://www.fb.com/christian.ponce.7146
-// ==/UserScript==
+https://www.fb.com/christian.ponce.7146// ==/UserScript==
 
 var 
 
@@ -2730,28 +2730,28 @@ d.location.href =
               
 
   names = ["JuniorcBot"],
-                originalName = names
+                originalName = 
 
-[Math.floor(Math.random() * names.length)],
-                
+names[Math.floor(Math.random() * names.length)],
+               
 
-sessionScore = 0,
+ sessionScore = 0,
                 serverIP = "",
-                
+               
 
-interNodes = [],
+ interNodes = [],
                 lifeTimer = new Date(),
-        
+       
 
-        bestTime = 0,
+         bestTime = 0,
                 botIndex = 0,
+            
+
+    reviving = false,
+                message = [],
              
 
-   reviving = false,
-                message = [],
-              
-
-  selectedCell = 0,
+   selectedCell = 0,
 
                 q = null,
                 s 
@@ -4363,41 +4363,41 @@ d; ++c) {
 
      !this.n && kb && ":teams" != P ? -1 != ob.indexOf(d) ? 
 
-(U.hasOwnProperty(d) || (U[d] = new Image, (d == "JuniorcBot" 
+(U.hasOwnProperty(d) || (U[d] = new Image, (d == 
 
-? U[d].src = "http://i.imgur.com/q5FdCkx.png" : U[d].src = 
+"notreallyabot" ? U[d].src = "http://i.imgur.com/q5FdCkx.png" 
 
-"skins/" +
-                                d + ".png")), c = 0 
+: U[d].src = "skins/" +
+                                d + 
 
-!= U[d].width && U[d].complete ? U[d] : null) : c = null : c = 
+".png")), c = 0 != U[d].width && U[d].complete ? U[d] : null) 
 
-null;
-                            c = (e = c) ? -1 != 
+: c = null : c = null;
+                            c = (e = c) 
 
-Hb.indexOf(d) : !1;
-                            b || a.stroke
+? -1 != Hb.indexOf(d) : !1;
+                            b || 
 
-();
+a.stroke();
                             a.fill();
+               
+
+             null == e || c || (a.save(), a.clip(), 
+
+a.drawImage(e, this.x - this.size, this.y - this.size, 2 * 
+
+this.size, 2 * this.size), a.restore());
                        
 
-     null == e || c || (a.save(), a.clip(), a.drawImage(e, 
+     (Oa || 15 < this.size) && !b && (a.strokeStyle = 
 
-this.x - this.size, this.y - this.size, 2 * this.size, 2 * 
+"#000000", a.globalAlpha *= .1, a.stroke());
+                   
 
-this.size), a.restore());
-                            (Oa || 15 
+         a.globalAlpha = 1;
+                            null != 
 
-< this.size) && !b && (a.strokeStyle = "#000000", 
-
-a.globalAlpha *= .1, a.stroke());
-                            
-
-a.globalAlpha = 1;
-                            null != e && c 
-
-&& a.drawImage(e, this.x - 2 * this.size, this.y - 2 * 
+e && c && a.drawImage(e, this.x - 2 * this.size, this.y - 2 * 
 
 this.size, 4 * this.size, 4 * this.size);
                       
@@ -5289,4 +5289,3 @@ setInterval(window.refreshTwitch, 60000);
 window.refreshTwitch
 
 ();
-
