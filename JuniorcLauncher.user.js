@@ -1,12 +1,8 @@
 // ==UserScript==
 // @name        JuniorcLauncher
-// @namespace  
-
- JuniorcLauncher
+// @namespace  JuniorcLauncher
 // @include     http://agar.io/*
-// @version    
-
- 3.063
+// @version     3.063
 // @grant       none
 // @author      
 
