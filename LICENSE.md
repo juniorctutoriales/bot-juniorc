@@ -1,1 +1,1 @@
-a
+Queda prohibida la reproducción total o parcial de esta publicación periódica, por cualquier medio o procedimiento, sin para ello contar con la autorización previa, expresa y por escrito del editor. Toda forma de utilización no autorizada será perseguida con lo establecido en la ley del derecho de autor. Derechos Reservados Conforme a la ley, ©, http://juniorc.ga/ (Perú 2015). Perú 2015. 
