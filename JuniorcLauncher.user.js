@@ -980,7 +980,7 @@ console.log("Running Bot Launcher!");
         debugStrings.push("Current Bot: " + window.botList[botIndex][0]);
         debugStrings.push("T - Bot: " + (!toggle ? "On" : "Off"));
         debugStrings.push("R - Lineas: " + (!toggleDraw ? "On" : "Off"));
-        debugStrings.push("Q - Seguir Mouse: " + (toggleFollow ? "On" : "Off"));
+        debugStrings.push("Q - Seguir el Mouse: " + (toggleFollow ? "On" : "Off"));
         debugStrings.push("S - Manual Cell: " + (selectedCell == 0 ? "None" : selectedCell) + " of " + getPlayer().length);
         debugStrings.push("");
         debugStrings.push("Best Score: " + ~~(sessionScore / 100));
