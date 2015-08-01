@@ -84,7 +84,7 @@ console.log("Running Apos Bot!");
     f.botList.push(["JuniorcBot " + JuniorcBotVersion, findDestination]);
 
     var bList = g('#bList');
-    g('<option />', {value: (f.botList.length - 1), text: "JuniorcBot"}).appendTo(bList);
+    g('<option />', {value: (f.botList.length - 1), text: "Prueba"}).appendTo(bList);
 
     //Given an angle value that was gotten from valueAndleBased(),
     //returns a new value that scales it appropriately.
